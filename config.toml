@@ -1,19 +1,13 @@
 baseurl = "/"
 languageCode= "fr"
-title = "My New Hugo Site"
+title = "Hugo web Site"
 theme = "mediumish-gohugo-theme"
 
 [params]
-  logo = "/images/icon.png"
-  description ="the clean blog!"
-  mailchimp = "you can provide a mailchimp-link here, see below"
-  mailprotect = "you can provide a protector-name here, see below"
+  intro = true
+    headline = "Hugo + Cockpit"
+    description = "Un editeur web pour Hugo"
+    # description = "Slimy things oozing my brain"
+    github = "https://github.com/soph25"
 
-[params.index]
-  picture = "/images/author.png"
-  title = "John Doe"
-  subtitle = "I'm a unique placeholder. Working here and there!"
-  mdtext = '''Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading'''
-  alertbar = true
+
