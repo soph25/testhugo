@@ -2,8 +2,8 @@
 date = "2019-01-30"
 publishdate = "2019-01-30T01:13:16+01:00"
 type = "post"
-title = "installer-Hugo-2"
-slug = "installer-Hugo-2"
+title = "installer-Hugo"
+slug = "installer-Hugo"
 tags = ["posts", "interesting"]
 image = "/images/test.jpg"
 +++
