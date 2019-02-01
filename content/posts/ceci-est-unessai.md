@@ -1,6 +1,6 @@
 +++
 date = "2019-01-30"
-publishdate = "2019-02-01T19:55:04+01:00"
+publishdate = "2019-02-01T20:45:22+01:00"
 type = "post"
 title = "ceci-est-unessai"
 slug = "ceci-est-unessai"
@@ -10,7 +10,8 @@ image = "/images/test.jpg"
 +++
 
 # Bon vous avez sans doute écrit quelques articles de test
-
+# Bon vous avez sans doute écrit quelques articles de test
+# Bon vous avez sans doute écrit quelques articles de test
 Alors vous avez constaté qu il n est pas facile ni agréable d écrire dans les fichiers md. C est pourquoi j ai recherché un outil d édition qui puisse aider dans ce sens.
 
 En fait il y a plusieurs problémes , le premier est celui lié a la rédaction que je viens d évoquer et un second qui est plus ardu et plus embétant aussi.
