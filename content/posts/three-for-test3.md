@@ -16,8 +16,3 @@ bbbbbbbbbbbbbbmmmmm
 bbmmmmmmmmmmm
 ddddddm
 eeeeeeeeeeee
-oooooooooooooooooooooooo
-iiiiiiiiiiiiiiiiiiiiiiiiiii
-ooooooooooooooooooo
-ppppppppppppppppppppppp
-yyyyyyyyyyyyyyyy
