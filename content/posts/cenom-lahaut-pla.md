@@ -4,7 +4,7 @@ publishdate = "2019-02-01T21:03:54+01:00"
 type = "post"
 title = "cenom-lahaut-pla"
 slug = "cenom-lahaut-pla"
-tags = ["posts", "interestings"]
+tags = ["posts", "interesting"]
 categories = ["uncategorized"]
 image = "/images/test.jpg"
 +++
