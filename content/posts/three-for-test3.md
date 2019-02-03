@@ -1,6 +1,6 @@
 +++
 date = "2019-02-01"
-publishdate = "2019-02-03T13:49:29+01:00"
+publishdate = "2019-02-03T14:03:58+01:00"
 type = "post"
 title = "three-for-test3"
 slug = "three-for-test3"
@@ -9,20 +9,20 @@ categories = ["uncategorized"]
 image = "/images/tulipe.jpg"
 +++
 
-# D'abord installer Hugo
-sur linux j ai fait sudo apt-get install hugo mais il vaut mieux recuperer la derniere version sur leur depot https://github.com/gohugoio/hugo/releases
+# Bon vous avez sans doute écrit quelques articles de test
 
-** ATTENTION **
+Alors vous avez constaté qu il n est pas facile ni agréable d écrire dans les fichiers md. C est pourquoi j ai recherché un outil d édition qui puisse aider dans ce sens.
 
-**il semble préférable de disposer de la dernière version qui la 0.53 sinon cela peut poser des problèmes pour produire le contenu car certaines fonctions ne seront pas reconnues.****
+En fait il y a plusieurs problémes , le premier est celui lié a la rédaction que je viens d évoquer et un second qui est plus ardu et plus embétant aussi.
 
-# quand l installation est faite
+En effet on se rend vite compte que même si Netlify fonctionne bien , il faut pour mettre a jour pousser a chaque fois les fichiers dans git et les envoyer dans le repository. Cela a beau être facile à faire cela me parait difficile à maintenir. Il existe des **webhooks ** qui peuvent faire ce travail et sont proposés dans le service de Netlify. Mais bon il faut les mettre en place et cela n'a pas l air évident.
 
-en ligne de commande : hugo new site "lenomdevotresite"
+Troisiéme problème, il n y a aucune possibilté pour des utilisateurs de modifier le contenu des pages statiques que nous mettons en ligne.
 
-cela genere les fichiers pour produire le contenu. Mais attention **il faut charger un thème ** depuis leur librairie le site https://gohugo.io/  en montre des exemples sur un onglet thèmes
-il faut installer le thème dans un dossier themes avec les autres dossiers. Si vous disposez de la bonne version d Hugo le theme choisit s installe sans difficulté, sinon recommencez ...
+# J'ai donc cherché un outil qui puisse aider dans les 3 situations
 
-# quand vous etes satisfait de vos contenus
+Bien sur j ai cherché un outil opensource de préférence et j ai trouvé Cockpit https://getcockpit.com/
 
-vous pouvez mettre en ligne votre site, **en utilisant d abord github ou gitlab** et poussez vos contenus sur un nouveau repository. Ensuite très facilement , j insiste, utilisez Netlify, il faut se créer un compte gratuit . C est plus pratique de s inscrire diretement en utilisant son accès github car Netlify va utiliser github pour installer votre site. Les autorisations nécessaires ne seront plus a remplir.
+Pour l instant j ai réussi a le mettre en place pour résoudre le probléme d édition mais cet outil propose la gestion des webhooks a voir donc... Pour le dernier probléme je ne pense pas qu il existe de solution facile . Il existe des services comme Forestry.io qui propose en package la création d un site jekyll , la mise en ligne et un dashboard d administration pour écrire et mettre a jour les contenus... il en existe d 'autres aussi vous pouvezvoir cela sur https://gohugo.io/tools/frontends/
+
+Bon finalement je vous parlerais de la mise en place de Cockpit et de l editeur dans mon troisieme post
