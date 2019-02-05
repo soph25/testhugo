@@ -9,8 +9,8 @@ categories = ["uncategorized"]
 image = "/images/test.jpg"
 +++
 
-si ubuntu freeze apres un update
-faire : **sudo apt-get upgrade**
+**si ubuntu freeze apres un update
+faire : sudo apt-get upgrade**
 
 pour reinstall creer image bootable avec createur disk demarrage avec image iso 16.04 ou 18.04 
 redemarrer sur la clé ainsi cree avec l outil image bootable
