@@ -17,5 +17,7 @@ redemarrer sur la clé ainsi cree avec l outil image bootable
 depuis le menu initial de boot F12
 et surtout faire sudo apt get upgrade apres l installation car l image iso n est surement pas à jour
 ensuite le nouveau ubunu installé ne freeze plus
-j ai toujours  ancien qui freeze a coté je vais tenter un upgrade depuis le terminal
+
+
+j ai toujours  ancien qui freeze a coté mais je vais tenter un upgrade depuis le terminal
 
