@@ -14,7 +14,7 @@ faire : sudo apt-get upgrade**
 
 pour reinstall creer image bootable avec createur disk demarrage avec image iso 16.04 ou 18.04 
 redemarrer sur la clé ainsi cree avec l outil image bootable
-depuis le menu initial de boot F12
+depuis le menu initial de boot F12l
 et surtout faire sudo apt get upgrade apres l installation car l image iso n est surement pas à jour
 ensuite le nouveau ubunu installé ne freeze plus
 
